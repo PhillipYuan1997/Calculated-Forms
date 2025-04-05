@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Supplies Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>School Supplies Calculator</h2>
+
+    <div class="item">
+      <label for="qty_notebook">1. Notebooks:</label>
+      <input type="number" id="qty_notebook" value="0">
+      <span>$3 each</span>
+      <input type="text" id="price_notebook" readonly>
+    </div>
+
+    <div class="item">
+      <label for="qty_pens">2. Pens (pack of 5):</label>
+      <input type="number" id="qty_pens" value="0">
+      <span>$2 per pack</span>
+      <input type="text" id="price_pens" readonly>
+    </div>
+
+    <div class="item">
+      <label for="qty_backpack">3. Backpack:</label>
+      <input type="number" id="qty_backpack" value="0">
+      <span>$25 each</span>
+      <input type="text" id="price_backpack" readonly>
+    </div>
+
+    <div class="item">
+      <label for="qty_laptop">4. Laptop:</label>
+      <input type="number" id="qty_laptop" value="0">
+      <span>$500 each</span>
+      <input type="text" id="price_laptop" readonly>
+    </div>
+
+    <div class="total">
+      <label>Total:</label>
+      <span id="total_value">$0</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
